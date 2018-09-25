@@ -36,6 +36,13 @@ module FullAdder4bit
     structuralFullAdder adder1 (sum[1], carryout1, a[1], b[1], carryout0);
     structuralFullAdder adder2 (sum[2], carryout2, a[2], b[2], carryout1);
     structuralFullAdder adder3 (sum[3], carryout,  a[3], b[3], carryout2);
-    assign overflow = carryout;
+    
+    wire negand, posand, a3inv, b3inv, s3inv;
+    `NOT a3inv(a3inv, a[3]);
+    `NOT b3inv(b3inv, b[3]);
+    `NOT s3inv(s3inv, sum[3]);
+    `AND posand(posand, a3inv, b3inv, carryout2);
+    `AND negand(negand, a[3], b[3], s3inv);
+    `OR overflowgate(overflow, posand, negand);
 
 endmodule
