@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Sep 25 17:28:19 2018
+# Process ID: 8657
+# Current directory: /home/nathan/git/CompArch/Lab0/Lab0Vivado/Lab0Vivado.runs/impl_1
+# Command line: vivado -log lab0_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source lab0_wrapper.tcl -notrace
+# Log file: /home/nathan/git/CompArch/Lab0/Lab0Vivado/Lab0Vivado.runs/impl_1/lab0_wrapper.vdi
+# Journal file: /home/nathan/git/CompArch/Lab0/Lab0Vivado/Lab0Vivado.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source lab0_wrapper.tcl -notrace
