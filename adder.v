@@ -15,10 +15,10 @@ module structuralFullAdder
 );
     wire xor0, and0, and1;
     // Single bit adder with carryin / carryout
-    `XOR xorgate(xor0,a,b);
-    `AND andgate(and0,a,b);
-    `XOR xorgate(sum,xor0,carryin);
-    `AND andgate(and1,xor0,carryin);
+    `XOR xor0gate(xor0,a,b);
+    `AND and0gate(and0,a,b);
+    `XOR sumgate(sum,xor0,carryin);
+    `AND and1gate(and1,xor0,carryin);
     `OR orgate(carryout,and0,and1);
 endmodule
 
