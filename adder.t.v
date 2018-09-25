@@ -54,6 +54,11 @@ module testFullAdder();
     $display("%b | %b | %b  %b    %b    | 0111 0     0", a, b, sum, carryout, overflow);
     a = 4'b1101; b = 4'b1011; #1000 // -3 + -5 = -8
     $display("%b | %b | %b  %b    %b    | 1000 1     0", a, b, sum, carryout, overflow);
+    
+    a = 4'b0011; b = 4'b1011; #1000 // +3 + -5 = -2
+    $display("%b | %b | %b  %b    %b    | 1110 0     0", a, b, sum, carryout, overflow);
+    a = 4'b0101; b = 4'b1101; #1000 // +5 + -3 = 2
+    $display("%b | %b | %b  %b    %b    | 0010 1     0", a, b, sum, carryout, overflow);
 
     // $dumpfile("adder.vcd");
     // $dumpvars;
