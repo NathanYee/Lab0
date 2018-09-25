@@ -4,7 +4,7 @@
 
 module testFullAdder();
     reg a, b, carryin;
-    wire sum, carryout, xor0, and0, and1;
+    wire sum, carryout;
 
     //behavioralFullAdder adder (sum, carryout, a, b, carryin);
     structuralFullAdder adder (sum, carryout, a, b, carryin); // Swap after testing
