@@ -44,8 +44,8 @@ module testFullAdder();
     $display("a    | b    | sum   cout ovfl | Esum Ecout Eovfl");
     a = 4'b0000; b = 4'b0000; #1000 // 0 + 0 = 0
     $display("%b | %b | %b  %b    %b    | 0000 0     0", a, b, sum, carryout, overflow);
-    a = 4'b1110; b = 4'b1101; #1000 // -2 + -3 = -5 
-    $display("%b | %b | %b  %b    %b    | 1011 0     0", a, b, sum, carryout, overflow);
+    a = 4'b1110; b = 4'b1101; #1000 // -2 + -3 = -5
+    $display("%b | %b | %b  %b    %b    | 1011 1     0", a, b, sum, carryout, overflow);
     a = 4'b0101; b = 4'b0011; #1000 // 5 + 3 = -8
     $display("%b | %b | %b  %b    %b    | 1000 0     1", a, b, sum, carryout, overflow);
     a = 4'b1001; b = 4'b1110; #1000 //-7 + -2 = 7
@@ -54,7 +54,7 @@ module testFullAdder();
     $display("%b | %b | %b  %b    %b    | 0111 0     0", a, b, sum, carryout, overflow);
     a = 4'b1101; b = 4'b1011; #1000 // -3 + -5 = -8
     $display("%b | %b | %b  %b    %b    | 1000 1     0", a, b, sum, carryout, overflow);
-    
+
     a = 4'b0011; b = 4'b1011; #1000 // +3 + -5 = -2
     $display("%b | %b | %b  %b    %b    | 1110 0     0", a, b, sum, carryout, overflow);
     a = 4'b0101; b = 4'b1101; #1000 // +5 + -3 = 2
