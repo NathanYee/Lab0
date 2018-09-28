@@ -473,3 +473,21 @@ dismissDialog("Program Device"); // bB (ck)
 // TclEventType: HW_DEVICE_PROBES_CHANGE
 // 'I' command handler elapsed time: 8 seconds
 dismissDialog("Program Device"); // bx (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,660 MB. GUI used memory: 46 MB. Current time: 9/27/18 5:37:06 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,662 MB. GUI used memory: 47 MB. Current time: 9/27/18 6:07:06 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,662 MB. GUI used memory: 44 MB. Current time: 9/27/18 6:37:06 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,662 MB. GUI used memory: 44 MB. Current time: 9/27/18 7:07:06 PM EDT
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210279652026A 
+// TclEventType: HW_SERVER_UPDATE
+// n (ck): Close Hardware Target: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,663 MB. GUI used memory: 44 MB. Current time: 9/27/18 9:24:27 PM EDT
