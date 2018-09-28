@@ -473,3 +473,260 @@ dismissDialog("Program Device"); // bB (ck)
 // TclEventType: HW_DEVICE_PROBES_CHANGE
 // 'I' command handler elapsed time: 8 seconds
 dismissDialog("Program Device"); // bx (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,660 MB. GUI used memory: 46 MB. Current time: 9/27/18 5:37:06 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,662 MB. GUI used memory: 47 MB. Current time: 9/27/18 6:07:06 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,662 MB. GUI used memory: 44 MB. Current time: 9/27/18 6:37:06 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,662 MB. GUI used memory: 44 MB. Current time: 9/27/18 7:07:06 PM EDT
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210279652026A 
+// TclEventType: HW_SERVER_UPDATE
+// n (ck): Close Hardware Target: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,663 MB. GUI used memory: 44 MB. Current time: 9/27/18 9:24:27 PM EDT
+// Elapsed time: 17026 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (ck)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15); // u (O, ck)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15); // u (O, ck)
+// Elapsed time: 30 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15, true); // u (O, ck) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bx (ck):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7z010clg400-1 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,735 MB. GUI used memory: 45 MB. Current time: 9/27/18 9:52:13 PM EDT
+// [Engine Memory]: 1,737 MB (+15563kb) [11:23:18]
+// Xgd.load filename: /opt/Xilinx/Vivado/2018.2/data/parts/xilinx/zynq/devint/zynq/xc7z010/xc7z010.xgd; ZipEntry: xc7z010_floorplan.xgd elapsed time: 0.9s
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 1.7s
+// [Engine Memory]: 1,829 MB (+5274kb) [11:23:20]
+// Xgd.load filename: /opt/Xilinx/Vivado/2018.2/data/parts/xilinx/zynq/devint/zynq/xc7z010/xc7z010.xgd; ZipEntry: xc7z010_detail.xgd elapsed time: 1.9s
+// [GUI Memory]: 103 MB (+6293kb) [11:23:23]
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2018.2 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [/home/comparch/Documents/ComputerArchitecture/Lab0_new/Lab0/lab0_attempt2/lab0_attempt2.srcs/constrs_1/imports/lab0_attempt2/ZYBO_Master.xdc] Finished Parsing XDC File [/home/comparch/Documents/ComputerArchitecture/Lab0_new/Lab0/lab0_attempt2/lab0_attempt2.srcs/constrs_1/imports/lab0_attempt2/ZYBO_Master.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: open_run: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 7051.172 ; gain = 193.359 ; free physical = 114 ; free virtual = 1945 
+// Device view-level: 0.0
+// [GUI Memory]: 110 MB (+2292kb) [11:23:26]
+// 'dP' command handler elapsed time: 11 seconds
+// Elapsed time: 11 seconds
+dismissDialog("Open Synthesized Design"); // bx (ck)
+// [GUI Memory]: 119 MB (+3187kb) [11:23:30]
+// [GUI Memory]: 126 MB (+1154kb) [11:23:35]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,921 MB. GUI used memory: 76 MB. Current time: 9/27/18 9:52:37 PM EDT
+// [Engine Memory]: 1,954 MB (+35389kb) [11:23:45]
+// Elapsed time: 26 seconds
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 164703, 92122); // D (I, ck)
+// Device select: 'I/O Bank - I/O Bank 0'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 562, 117, 1124, 490); // U (k, ck)
+// PAPropertyPanels.initPanels (I/O Bank 0) elapsed time: 0.8s
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,025 MB. GUI used memory: 78 MB. Current time: 9/27/18 9:52:57 PM EDT
+// RouteApi::initDelayMediator elapsed time: 42.1s
+// [Engine Memory]: 2,253 MB (+211165kb) [11:24:07]
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Elapsed time: 19 seconds
+selectTab(PAResourceOtoP.ProjectSummaryUtilizationGadget_PROJECT_SUMMARY_UTILIZATION_GADGET_TABBED, PAResourceOtoP.ProjectSummaryUtilizationGadget_POST_SYNTHESIS, "Post-Synthesis", 0); // b (C, ck)
+selectTab(PAResourceOtoP.ProjectSummaryUtilizationGadget_PROJECT_SUMMARY_UTILIZATION_GADGET_TABBED, PAResourceOtoP.ProjectSummaryUtilizationGadget_POST_IMPLEMENTATION, "Post-Implementation", 1); // b (C, ck)
+selectTab(PAResourceOtoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_PANEL_TABBED, PAResourceOtoP.ProjectSummaryUtilizationPanel_TABLE, "Table", 1); // f (C, ck)
+// Elapsed time: 100 seconds
+selectButton(PAResourceCommand.PACommandNames_SYNTH_SETTINGS, "Vivado Synthesis Default Reports"); // h (Q, ck)
+// Run Command: PAResourceCommand.PACommandNames_SYNTH_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// C (ck): Settings: addNotify
+// 'dx' command handler elapsed time: 4 seconds
+// [GUI Memory]: 135 MB (+3096kb) [11:26:04]
+selectButton(PAResourceCommand.PACommandNames_SYNTH_SETTINGS, "Vivado Synthesis Default Reports"); // h (Q, ck)
+// Elapsed time: 11 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (C)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (C)
+dismissDialog("Settings"); // C (ck)
+// [GUI Memory]: 142 MB (+287kb) [11:27:35]
+// Elapsed time: 739 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Schematic]", 27, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 2,299 MB. GUI used memory: 94 MB. Current time: 9/27/18 10:07:33 PM EDT
+// Elapsed time: 24 seconds
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 9); // u (O, ck)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 9); // u (O, ck)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 9); // u (O, ck)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 9); // u (O, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+// Elapsed time: 10 seconds
+selectComboBox(RDIResource.MainWinToolbarMgr_SELECT_OR_SAVE_WINDOW_LAYOUT, "Floorplanning", 2); // be (f, ck)
+// Elapsed time: 17 seconds
+selectTab((HResource) null, (HResource) null, "Physical Constraints", 0); // aE (Q, ck)
+selectTab((HResource) null, (HResource) null, "Device Constraints", 1); // aE (Q, ck)
+// Elapsed time: 957 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+// Elapsed time: 22 seconds
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_REPORT, "Open Interactive Report..."); // ad (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_REPORT
+dismissFileChooser();
+// 'g' command handler elapsed time: 3 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_IO, "IO"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_TIMING, "Timing"); // aa (ck)
+selectMenuItem(PAResourceCommand.PACommandNames_REPORT_METHODOLOGY, "Report Methodology..."); // ad (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_METHODOLOGY
+// a (ck): Report Methodology: addNotify
+selectTree(PAResourceQtoS.SelectVioSpecPanel_CHECK_BOX_TREE, "[All Rules, Netlist]", 2, true); // v (O, a) - Node
+selectTree(PAResourceQtoS.SelectVioSpecPanel_CHECK_BOX_TREE, "[All Rules, Clocking]", 3, true); // v (O, a) - Node
+selectTree(PAResourceQtoS.SelectVioSpecPanel_CHECK_BOX_TREE, "[All Rules, XDC]", 4, true); // v (O, a) - Node
+selectTree(PAResourceQtoS.SelectVioSpecPanel_CHECK_BOX_TREE, "[All Rules, Netlist]", 2, true); // v (O, a) - Node
+selectTree(PAResourceQtoS.SelectVioSpecPanel_CHECK_BOX_TREE, "[All Rules, Clocking]", 3, true); // v (O, a) - Node
+selectTree(PAResourceQtoS.SelectVioSpecPanel_CHECK_BOX_TREE, "[All Rules, XDC]", 4, true); // v (O, a) - Node
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// 'cn' command handler elapsed time: 17 seconds
+dismissDialog("Report Methodology"); // a (ck)
+// bx (ck):  Report Methodology : addNotify
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. INFO: [Timing 38-35] Done setting XDC timing constraints. 
+// TclEventType: METHODOLOGY_ADDED
+// Tcl Message: report_methodology completed successfully 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,382 MB. GUI used memory: 99 MB. Current time: 9/27/18 10:25:28 PM EDT
+// [Engine Memory]: 2,382 MB (+16377kb) [11:56:32]
+dismissDialog("Report Methodology"); // bx (ck)
+// Elapsed time: 11 seconds
+collapseTreeTable(PAResourceTtoZ.VioTreeTablePanel_VIO_TREE_TABLE, "Bad Practice (9) ; ", 2); // P (O, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_IO, "IO"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_TIMING, "Timing"); // aa (ck)
+selectMenuItem(PAResourceCommand.PACommandNames_REPORT_METHODOLOGY, "Report Methodology..."); // ad (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_METHODOLOGY
+// a (ck): Report Methodology: addNotify
+selectCheckBox(PAResourceQtoS.ReportMethodologyDialog_EXPORT_TO_FILE, "Export to file:", true); // g (Q, a): TRUE
+selectCheckBox(PAResourceQtoS.ReportMethodologyDialog_EXPORT_TO_FILE, "Export to file:", true); // g (Q, a): TRUE
+selectButton(PAResourceQtoS.ReportMethodologyDialog_TEXT_FILES, (String) null); // q (ak)
+// Elapsed time: 63 seconds
+setFileChooser("/home/comparch/Documents/ComputerArchitecture/Lab0_new/Lab0/lab0_attempt2/reprt");
+selectButton(PAResourceQtoS.ReportMethodologyDialog_TEXT_FILES, (String) null); // q (ak)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// 'cn' command handler elapsed time: 81 seconds
+// [GUI Memory]: 150 MB (+716kb) [11:58:20]
+dismissDialog("Report Methodology"); // a (ck)
+// bx (ck):  Report Methodology : addNotify
+// TclEventType: METHODOLOGY_ADDED
+// Tcl Message: INFO: [Coretcl 2-1520] The results of Report Methodology are in file /home/comparch/Documents/ComputerArchitecture/Lab0_new/Lab0/lab0_attempt2/reprt.txt. 
+// Tcl Message: report_methodology completed successfully 
+dismissDialog("Report Methodology"); // bx (ck)
+// Elapsed time: 80 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOORPLANNING, "Floorplanning"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_IO_PLANNING, "I/O Planning"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_TIMING, "Timing"); // aa (ck)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // aa (ck)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // aa (ck)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_TIMING, "Timing"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_IO_PLANNING, "I/O Planning"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_TIMING, "Timing"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_TIMING, "Timing"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_TIMING, "Timing"); // aa (ck)
+// Elapsed time: 13 seconds
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_IO, "IO"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_TIMING, "Timing"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_TIMING, "Timing"); // aa (ck)
+selectMenuItem(PAResourceCommand.PACommandNames_RESOURCE_UTILIZATION, "Report Utilization..."); // ad (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+// Run Command: PAResourceCommand.PACommandNames_RESOURCE_UTILIZATION
+// a (ck): Report Utilization: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// 'cq' command handler elapsed time: 4 seconds
+// TclEventType: UTILIZATION_RESULT_GENERATED
+dismissDialog("Report Utilization"); // a (ck)
+// bx (ck):  Report Utilization : addNotify
+// Tcl Message: report_utilization -name utilization_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,389 MB. GUI used memory: 101 MB. Current time: 9/27/18 10:29:25 PM EDT
+// Tcl Message: report_utilization: Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 7484.496 ; gain = 2.000 ; free physical = 140 ; free virtual = 1502 
+dismissDialog("Report Utilization"); // bx (ck)
+// Elapsed time: 10 seconds
+selectTab((HResource) null, (HResource) null, "Physical Constraints", 0); // aE (Q, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Device", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Device", 1); // k (j, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,419 MB. GUI used memory: 102 MB. Current time: 9/27/18 10:29:47 PM EDT
+selectTree(PAResourceQtoS.ReportUtilTab_REPORT_UTILIZATION_NAVIGATION_TREE, "[Report Contents, Summary]", 1, false); // k (O, ck)
+selectTree(PAResourceQtoS.ReportUtilTab_REPORT_UTILIZATION_NAVIGATION_TREE, "[Report Contents, Summary]", 1, false, false, false, false, false, true); // k (O, ck) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 2,419 MB. GUI used memory: 112 MB. Current time: 9/27/18 10:47:38 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,422 MB. GUI used memory: 104 MB. Current time: 9/27/18 11:17:43 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,422 MB. GUI used memory: 104 MB. Current time: 9/27/18 11:47:43 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,422 MB. GUI used memory: 98 MB. Current time: 9/28/18 12:17:43 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,422 MB. GUI used memory: 98 MB. Current time: 9/28/18 7:31:50 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,422 MB. GUI used memory: 98 MB. Current time: 9/28/18 8:01:50 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,422 MB. GUI used memory: 98 MB. Current time: 9/28/18 8:31:50 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,422 MB. GUI used memory: 98 MB. Current time: 9/28/18 10:49:33 AM EDT
